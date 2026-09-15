@@ -22,6 +22,14 @@
 .actions button{font-size:18px}
 .actions .bag{font-size:18px}
 .intro-inner,.seller-grid,.editorial-grid,.contact-grid{grid-template-columns:1fr;gap:40px}.intro-inner{padding:65px 0}.intro-art{height:420px}.seller-copy{padding:50px 10px}.benefit-grid{grid-template-columns:1fr 1fr}.benefit-grid article:nth-child(2){border-right:0}.benefit-grid article:nth-child(-n+2){border-bottom:1px solid #ddd}.custom-grid{grid-template-columns:1fr}.products{grid-template-columns:repeat(2,1fr)}.collection-grid{grid-template-columns:1fr 1fr;grid-auto-rows:230px}.c1,.c2,.c3,.c4,.c5{grid-column:span 1;grid-row:span 1}.c1{grid-column:span 2}.editorial-images{height:430px}.footer-grid{grid-template-columns:1fr 1fr}.mobile-nav{padding:15px 5%;border-top:1px solid #eee;background:#fff}.mobile-nav.open{display:grid;grid-template-columns:1fr 1fr}.mobile-nav a{padding:11px 0;font-size:12px}}@media(max-width:560px){
+    .search input {
+    flex: 1;
+    border: 0;
+    background: none;
+    outline: 0;
+    padding: 18px 5px;
+    font: 20px "Playfair Display", serif;
+}
 .announcement{font-size:8px;height:31px;display:flex;align-items:center;overflow:hidden}
 .announcement-track{min-width:max-content}
 .header{height:76px}
